@@ -1,6 +1,7 @@
 provider "aws" {
   profile = "default"
   region  = "us-west-2"
+  version = "3.53.0"
 }
 
 resource "aws_instance" "app_server" {
